@@ -1,0 +1,36 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/kanishkgulati/esp/esp-idf",
+  "idf.pythonInstallPath": "/usr/local/bin/python",
+  "idf.espAdfPath": "/Users/kanishkgulati/.espressif/esp-adf",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.port": "/dev/tty.usbserial-51850050251",
+  "idf.toolsPath": "/Users/kanishkgulati/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "/Users/kanishkgulati/.espressif/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/Users/kanishkgulati/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "time.h": "c",
+    "*.tcc": "c",
+    "charconv": "c",
+    "chrono": "c",
+    "format": "c",
+    "future": "c",
+    "iomanip": "c",
+    "limits": "c",
+    "numeric": "c",
+    "ratio": "c",
+    "streambuf": "c",
+    "tuple": "c",
+    "type_traits": "c"
+  }
+}

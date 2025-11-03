@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/CMakeFiles/bootloader
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/CMakeFiles/bootloader.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/CMakeFiles/bootloader-complete.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/kanishkgulati/Desktop/isaac/3switch-1fan/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
