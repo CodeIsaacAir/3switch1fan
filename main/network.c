@@ -38,6 +38,7 @@
 #include "esp_event.h"
 #include "esp_app_desc.h"
 
+
 // WiFi provisioning includes
 #include "wifi_provisioning/manager.h"
 #include "wifi_provisioning/scheme_ble.h"
@@ -216,6 +217,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 
                 printf("[wifi] MQTT data: %s\n", mqtt_data_copy);
                 
+
                 // Parse JSON to determine command type
                 json_t pool[10]; //type, dp_id, action
                 json_t const *root = json_create(mqtt_data_copy, pool, 10);
@@ -237,7 +239,8 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
                             }else{
                                 printf("[wifi] Missing or invalid dp_id or action in MQTT message\n");
                             }
-                        }else {
+                        }
+                        else {
                             printf("[wifi] Unknown command: %s\n", json_getValue(commandType));
                         }
                     }

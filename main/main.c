@@ -37,7 +37,7 @@
  *============================================================================*/
 
 // Device configuration constants
-const char* device_type = "lumos_3g1f";                    // Device type identifier
+const char* device_type = "Lumos_3g1f";                    // Device type identifier
 char* device_id = NULL;                            // Device ID
 static uint8_t default_device_id[6];               // Base MAC address from EFUSE
 
